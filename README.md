@@ -1,6 +1,6 @@
 # 📱 iOS Style Calculator
 
-Click- [View](https://haseeb2949j.github.io/Ios-calculator/)
+Click- [View](https://haseeb2949j.github.io/Ios-calculator/index.html)
 
 A sleek, modern, and fully responsive calculator app that mimics the iOS (iPhone 15) Calculator UI.  
 Designed and developed by **Haseeb ur Rahman**, this project showcases a clean UI experience using HTML, CSS, and JavaScript.
