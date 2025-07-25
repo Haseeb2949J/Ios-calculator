@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS Calculator - iPhone 15</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- iPhone 15 Frame -->
+        <div class="phone-frame">
+            <!-- Phone Body -->
+            <div class="phone-body">
+                <!-- Screen -->
+                <div class="screen">
+                    <!-- Dynamic Island -->
+                    <div class="dynamic-island"></div>
+
+                    <!-- Calculator App -->
+                    <div class="calculator-app">
+                        <!-- History Display -->
+                        <div class="history-section" id="historySection" style="display: none;">
+                            <div class="history-header">
+                                <span class="history-title">History</span>
+                                <button class="clear-history-btn" id="clearHistoryBtn">Clear</button>
+                            </div>
+                            <div class="history-list" id="historyList"></div>
+                        </div>
+
+                        <!-- Display -->
+                        <div class="display-section">
+                            <!-- Current Equation -->
+                            <div class="equation-display" id="equationDisplay"></div>
+                            <!-- Main Display -->
+                            <div class="main-display" id="mainDisplay">0</div>
+                        </div>
+
+                        <!-- Button Grid -->
+                        <div class="button-grid">
+                            <!-- Row 1 -->
+                            <button class="btn btn-function" onclick="clearAll()">AC</button>
+                            <button class="btn btn-function" onclick="backspace()">⌫</button>
+                            <button class="btn btn-function" onclick="percentage()">%</button>
+                            <button class="btn btn-operation" onclick="performOperation('÷')">÷</button>
+
+                            <!-- Row 2 -->
+                            <button class="btn btn-number" onclick="inputNumber('7')">7</button>
+                            <button class="btn btn-number" onclick="inputNumber('8')">8</button>
+                            <button class="btn btn-number" onclick="inputNumber('9')">9</button>
+                            <button class="btn btn-operation" onclick="performOperation('×')">×</button>
+
+                            <!-- Row 3 -->
+                            <button class="btn btn-number" onclick="inputNumber('4')">4</button>
+                            <button class="btn btn-number" onclick="inputNumber('5')">5</button>
+                            <button class="btn btn-number" onclick="inputNumber('6')">6</button>
+                            <button class="btn btn-operation" onclick="performOperation('-')">−</button>
+
+                            <!-- Row 4 -->
+                            <button class="btn btn-number" onclick="inputNumber('1')">1</button>
+                            <button class="btn btn-number" onclick="inputNumber('2')">2</button>
+                            <button class="btn btn-number" onclick="inputNumber('3')">3</button>
+                            <button class="btn btn-operation" onclick="performOperation('+')">+</button>
+
+                            <!-- Row 5 -->
+                            <button class="btn btn-number btn-zero" onclick="inputNumber('0')">0</button>
+                            <button class="btn btn-number" onclick="inputDecimal()">.</button>
+                            <button class="btn btn-operation" onclick="handleEquals()">=</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Side Buttons -->
+            <div class="side-button side-button-1"></div>
+            <div class="side-button side-button-2"></div>
+            <div class="side-button side-button-3"></div>
+            <div class="side-button side-button-4"></div>
+        </div>
+
+        <!-- Credit Text -->
+        <div class="credit-text">Made by Haseeb Ur Rahman</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
